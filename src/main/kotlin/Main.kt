@@ -1,7 +1,14 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import problem_one_two_sum.TwoSumProblem
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+    // Two Sum Solution
+    val exmArray = intArrayOf(1,3,7)
+    val examTarget = 8
+    val result =  TwoSumProblem.twoSum(exmArray,examTarget).toList()
+
+
+
+    // Print solution
+    println(result)
+
 }
