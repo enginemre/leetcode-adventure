@@ -1,4 +1,5 @@
 import problem_five_longest_polindromic.LongestPalindromic
+import problem_four_median_of_two_sorted_array.MedianOfTwoSortedArray
 import problem_one_two_sum.TwoSumProblem
 import problem_two_add_two_numbers.AddTwoNumbers
 import problem_two_add_two_numbers.ListNode
@@ -15,10 +16,13 @@ fun main() {
 //    val l2 =ListNode(2)
 //    l2.next = ListNode(6)
 //    val result = AddTwoNumbers.addTwoNumbersIterative(l1,l2)
+//      Longest Palindromic
+//    val exampleString = "cgabbbaujg"
+//    val result = LongestPalindromic.longestPalindromic(exampleString)
 
-    //  Longest Palindromic
-    val exampleString = "cgabbbaujg"
-    val result = LongestPalindromic.longestPalindromic(exampleString)
+    val arrayOne = intArrayOf(1,2,3,4)
+    val arrayTwo = intArrayOf(5,6,7,8)
+    val result = MedianOfTwoSortedArray.findMedianSortedArrays(arrayOne,arrayTwo)
 
     // Print solution
     println(result.toString())
