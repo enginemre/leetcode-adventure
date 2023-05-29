@@ -1,6 +1,8 @@
 import problem_five_longest_polindromic.LongestPalindromic
 import problem_four_median_of_two_sorted_array.MedianOfTwoSortedArray
 import problem_one_two_sum.TwoSumProblem
+import problem_seven_reverse_integer.ReverseInteger
+import problem_three_longest_sub_string.LongestSubString
 import problem_two_add_two_numbers.AddTwoNumbers
 import problem_two_add_two_numbers.ListNode
 
@@ -19,10 +21,15 @@ fun main() {
 //      Longest Palindromic
 //    val exampleString = "cgabbbaujg"
 //    val result = LongestPalindromic.longestPalindromic(exampleString)
-
-    val arrayOne = intArrayOf(1,2,3,4)
-    val arrayTwo = intArrayOf(5,6,7,8)
-    val result = MedianOfTwoSortedArray.findMedianSortedArrays(arrayOne,arrayTwo)
+//      Median of two sorted array
+//    val arrayOne = intArrayOf(1,2,3,4)
+//    val arrayTwo = intArrayOf(5,6,7,8)
+//    val result = MedianOfTwoSortedArray.findMedianSortedArrays(arrayOne,arrayTwo)
+//      Longest Substring
+//    val exampleString = "bbbbb"
+//    val result = LongestSubString.getLongestSubString(exampleString)
+//      Reverse Integer
+    val result = ReverseInteger.reverseInteger(-322)
 
     // Print solution
     println(result.toString())
