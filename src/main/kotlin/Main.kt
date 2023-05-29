@@ -1,3 +1,4 @@
+import problem_eight_string_to_int_atoi.StringToAtoI
 import problem_five_longest_polindromic.LongestPalindromic
 import problem_four_median_of_two_sorted_array.MedianOfTwoSortedArray
 import problem_one_two_sum.TwoSumProblem
@@ -29,7 +30,10 @@ fun main() {
 //    val exampleString = "bbbbb"
 //    val result = LongestSubString.getLongestSubString(exampleString)
 //      Reverse Integer
-    val result = ReverseInteger.reverseInteger(-322)
+//    val result = ReverseInteger.reverseInteger(-322)
+//      AtoI
+//    val result = StringToAtoI.myAtoI("-123")
+
 
     // Print solution
     println(result.toString())
